@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Valet/*.{h,m}', 'Other/*.{h,m}'
   s.frameworks = 'Security'
   s.ios.deployment_target = '6.0'
+  s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
 end
